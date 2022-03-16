@@ -1,14 +1,15 @@
 # Moog React Node Express Patchbook Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+in addition of Node Express JS and PosgreSQL
 
 ## Demo
 
- * No need to signup, you can login with the following credentials:
+* No need to signup, you can login with the following credentials:
  <br>
- * username | password     | email  
+* username | password     | email  
  <br>
- * testuser | testpassword | test@test.com
+* testuser | testpassword | test@test.com
 
 ## Database Schema
 
@@ -18,6 +19,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Homepage
 
 ![Homepage](client/public/images/HomePage-SS.png)
+
+
+
+## User Flow
+
+* Users can Signup/Login with a Username, Email (No Contact), and Password. Password is cryptographically hashed with bcrypt and Users are generated jwt for authenticaion through user routes.
+
+* Users can view templates and preview audio of each patch to hear results
+
+* Users can click external links to visit Moog's website for product and MetaPatch to create patches of their own.
 
 
 In the project directory, you can run:
