@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  * No need to signup, you can login with the following credentials:
  <br>
  * username | password     | email  
+ <br>
  * testuser | testpassword | test@test.com
 
 
