@@ -1,7 +1,7 @@
 # Moog React Node Express Patchbook Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-in addition of Node Express JS and PosgreSQL
+in addition to Node, Express, JS, PosgreSQL and React Router.
 
 ## Demo
 * No need to signup, you can login with the following credentials:
