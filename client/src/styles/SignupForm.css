@@ -1,0 +1,109 @@
+.signup-body {
+    background-image: 
+    url("/public/images/MoogSynth.png");
+    background-size: 40%;
+   
+    background-repeat: repeat;
+    min-height: 92vh;
+}
+
+.mb-3 {
+    padding-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 33px;
+}
+
+.SignupForm {
+    padding-top: 3rem;
+    min-height: 92vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+
+input {
+    width: 100%;
+    padding: 12px 11px;
+    margin: 4px 10px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+}
+  
+input:focus {
+    border: 3px solid #555;
+}
+
+
+.form-group {
+    padding-top: 1rem;
+    text-align: right;
+    margin-left:auto;
+    margin-right:auto;
+    width: 960px;
+    
+    
+}
+
+.form-control {
+    width: auto;
+    height: 1rem;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 13em;
+    margin-bottom: -1rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    float: right;
+    position: relative;
+    
+}
+
+
+@media screen and (max-width: 960px) {
+    .form-group, .form-control, input {
+      width: 85%;
+      margin: 10px 10px 10px 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .form-group {
+     text-align: left;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 26px;
+     overflow-x: hidden;
+     
+    }
+}
+@media screen and (max-width: 960px) {
+    .btn-signup {
+     width: 30%;
+     display:inline;
+    }
+}
+
+.btn-signup {
+    background-color: rgb(214, 80, 99);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 3rem;
+    margin-right: 0.5rem;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background-color: #555;
+}

@@ -1,0 +1,58 @@
+.header-patchbook-dark {
+    margin: auto;
+    padding-bottom: 4px;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 31, 32);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .header-patchbook-lbd {
+    margin: auto;
+    padding-bottom: 4px;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(213, 71, 145);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .header-patchbook-md {
+    margin: auto;
+    padding-bottom: 4px;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 166, 94);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .templates-body {
+    background-image: 
+    url("/public/images/MoogSynth.png");
+    background-size: 40%;
+    background-repeat: repeat;
+  }
+  .templates-div {
+    padding-top: 4rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .cover-img {
+    width: 70%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: cover;
+    margin-bottom: 4rem;
+    
+  }
+  .cover-img:hover {
+    opacity: calc(70%);
+    transition: all 0.4s ease-out;
+    
+  }
+  @media screen and (max-width: 870px) {
+    .header-patchbook-dark, .header-patchbook-lbd, .header-patchbook-md {
+      font-size: 20px;
+    }
+}
