@@ -15,6 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Database Schema](client/public/images/Schema.png)
 
 
+## Homepage
+
+![Homepage](client/public/images/HomePage-SS.png)
+
+
 In the project directory, you can run:
 
 ### `npm start`
