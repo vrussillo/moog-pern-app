@@ -4,12 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 in addition of Node Express JS and PosgreSQL
 
 ## Demo
-
 * No need to signup, you can login with the following credentials:
+
  <br>
-* username | password     | email  
+ username | password     | email  
  <br>
-* testuser | testpassword | test@test.com
+testuser | testpassword | test@test.com
 
 ## Database Schema
 
