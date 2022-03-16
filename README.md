@@ -22,11 +22,11 @@ testuser | testpassword | test@test.com
 
 ## User Flow
 
-* Users can Signup/Login with a Username, Email (No Contact), and Password. Password is cryptographically hashed with bcrypt and Users are generated jwt for authenticaion through user routes.
+* A User can Signup/Login with a Username, Email (No Contact), and Password. Password is cryptographically hashed with bcrypt and Users are generated a jwt for authenticaion through user routes.
 
-* Users can view templates and preview audio of each patch to hear results
+* A User can view templates and preview audio of each patch to hear results
 
-* Users can click external links to visit Moog's website for product and MetaPatch to create patches of their own.
+* A User can click external links to visit Moog's website for product and MetaPatch to create patches of their own.
 
 
 In the project directory, you can run:
