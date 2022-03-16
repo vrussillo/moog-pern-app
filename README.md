@@ -10,7 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  <br>
  * testuser | testpassword | test@test.com
 
+## Database Schema
 
+![Database Schema](client/public/images/Schema.png)
 
 
 In the project directory, you can run:
