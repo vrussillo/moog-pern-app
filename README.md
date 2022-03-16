@@ -11,15 +11,13 @@ in addition of Node Express JS and PosgreSQL
  <br>
 testuser | testpassword | test@test.com
 
-## Database Schema
-
-![Database Schema](client/public/images/Schema.png)
-
-
 ## Homepage
 
 ![Homepage](client/public/images/HomePage-SS.png)
 
+## Database Schema
+
+![Database Schema](client/public/images/Schema.png)
 
 
 ## User Flow
